@@ -15,8 +15,11 @@
             <div class="toggle"></div>
         </header>
 
-        <video src="sources/flowers.mp4" playsinline autoplay muted loop></video>
+        <video id="flowers" src="sources/flowers.mp4" autoplay muted loop></video>
         <audio src="sources/eth.mp3" autoplay loop></audio>
+        <script>
+            document.getElementById('flowers').play();
+        </script>
 
         <div class="overlay"></div>
 
