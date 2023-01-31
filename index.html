@@ -1,1 +1,58 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>╜φ°⌂▌╫§╜φ°⌂▌╫§╜φ°⌂▌</title>
+    <link rel="icon" type="image/jpg" href="sources/favicon.ico">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo"></h2>
+            <div class="toggle"></div>
+        </header>
+
+        <video src="sources/flowers.mp4" muted loop autoplay></video>
+        <audio src="sources/eth.mp3" autoplay loop></audio>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>imagine</h2>
+            <h3>unknown</h3>
+            <p>have you ever closed your eyes and imagined something completely unknown, absurd, something that does not exist? visual perfection, your own ideal recreated in your mind. welcome to a world full of synthesized colors.</p>
+            <a href="https://soundcloud.com/harunoheart" target="_blank">listen now</a>
+        </div>
+
+       <!---- <ul class="social">
+            <li><a href="#"><img src="sources/instagram.png"></a></li>
+            <li><a href="#"><img src="sources/twitter.png"></a></li>
+            <li><a href="#"><img src="sources/email.png"></a></li>
+        </ul> !-->
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="https://soundcloud.com/harunoheart" target="_blank">soundcloud</a></li>
+            <li><a href="https://instagram.com/harunoheart" target="_blank">instagram</a></li>
+            <li><a href="https://twitter.com/harunoheart" target="_blank">twitter</a></li>
+            <li><a href="https://t.me/qwkqwkqwkqkwqwqwkqkwqkwqkqwkqwk" target="_blank">telegram</a></li>
+            <li><a href="mailto:yuubaridesu@gmail.com">contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active');
+            showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>
