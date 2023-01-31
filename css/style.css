@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300;400;500;900&display=swap');
 
 :root{
-    --overlay-color: rgb(252, 136, 213);
+    --overlay-color: rgb(35, 86, 255);
 }
 
 *{
@@ -69,13 +69,13 @@
     right: 280px;
 }
 
-.showcase video{
+.showcase img{
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: fill;
+    object-fit: cover;
     opacity: 0.8;
 }
 
